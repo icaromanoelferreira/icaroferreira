@@ -1,26 +1,26 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 02/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 primeiroNumero: inteiro
 segundoNumero: inteiro
 operacao: caracter
 resultado: real
 Inicio
 // Solicitando dados do usuario
-escreva ("Digite o primeiro número: ")
+escreva ("Digite o primeiro nÃºmero: ")
 leia(primeiroNumero)
-escreva ("Digite a operação desejada: (+, -, *, /) ")
+escreva ("Digite a operaÃ§Ã£o desejada: (+, -, *, /) ")
 leia (operacao)
-escreva ("Digite o Segundo número: ")
+escreva ("Digite o Segundo nÃºmero: ")
 leia (segundoNumero)
 limpatela
 
-//escolhendo a operação
+//escolhendo a operaÃ§Ã£o
 escolha operacao
 caso "+"
 resultado <- primeiroNumero + segundoNumero
@@ -30,6 +30,8 @@ caso "*"
 resultado <- primeiroNumero * segundoNumero
 caso "/"
 resultado <- primeiroNumero / segundoNumero
+outrocaso
+escreva ("A operaÃ§Ã£o digitada Ã© invalida!")
 fimescolha
 
 // exibido dados na tela
